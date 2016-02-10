@@ -1,0 +1,30 @@
+{
+    "name": "vtvz/yii2-hmvc",
+    "description": "Yii2 hmvc support",
+    "type": "yii2-extention",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaly Zaslavsky",
+            "email": "vtvz.ru@gmail.com"
+        }
+    ],
+
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-4": {
+            "vtvz\\hmvc\\": ""
+        }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.2.0-dev"
+        }
+    }
+}
